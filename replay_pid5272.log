@@ -1,0 +1,53 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 467 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 1519391 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 3073 1 384 0 -1
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 3145 1 5513 0 -1
+ciMethod java/lang/Object notifyAll ()V 2057 1 257 0 -1
+ciMethod java/lang/Object wait ()V 89 1 660 0 -1
+ciMethod java/lang/System currentTimeMillis ()J 2049 1 256 0 -1
+ciMethod java/security/AccessControlContext getDebug ()Lsun/security/util/Debug; 0 0 1 0 -1
+ciMethod java/security/AccessControlContext <init> ([Ljava/security/ProtectionDomain;Z)V 81 1 10 0 -1
+ciMethod java/security/AccessControlContext optimize ()Ljava/security/AccessControlContext; 2945 1 5525 0 2560
+ciMethod java/security/AccessControlContext combine ([Ljava/security/ProtectionDomain;[Ljava/security/ProtectionDomain;)[Ljava/security/ProtectionDomain; 2073 217 2646 0 -1
+ciMethod java/security/AccessControlContext calculateFields (Ljava/security/AccessControlContext;Ljava/security/AccessControlContext;[Ljava/security/Permission;)V 2049 1 1373 0 -1
+ciMethod java/lang/Thread currentThread ()Ljava/lang/Thread; 2049 1 256 0 -1
+ciMethod java/lang/Thread interrupt ()V 0 0 1 0 -1
+ciMethod java/util/Map isEmpty ()Z 0 0 1 0 -1
+ciMethod java/util/Map get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/invoke/DirectMethodHandle internalMemberName (Ljava/lang/Object;)Ljava/lang/Object; 1481 1 2740 0 -1
+ciMethod sun/misc/Unsafe ensureClassInitialized (Ljava/lang/Class;)V 1977 1 247 0 -1
+ciMethod sun/misc/Unsafe compareAndSwapObject (Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe compareAndSwapInt (Ljava/lang/Object;JII)Z 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe unpark (Ljava/lang/Object;)V 2049 1 256 0 -1
+ciMethod java/security/AccessController doPrivileged (Ljava/security/PrivilegedAction;)Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod java/security/AccessController getStackAccessControlContext ()Ljava/security/AccessControlContext; 2049 1 256 0 -1
+ciMethod java/security/AccessController getInheritedAccessControlContext ()Ljava/security/AccessControlContext; 2065 1 258 0 -1
+ciMethod java/security/AccessController getContext ()Ljava/security/AccessControlContext; 2049 1 18894 0 0
+ciMethod java/util/List size ()I 0 0 1 0 -1
+ciMethod java/util/List add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/List get (I)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/AbstractList <init> ()V 2049 1 28498 0 0
+ciMethod java/util/AbstractCollection <init> ()V 3897 1 33970 0 0
+ciMethod java/lang/Math max (II)I 1737 1 43045 0 -1
+ciMethod java/util/Set isEmpty ()Z 0 0 1 0 -1
+ciMethod java/util/Set add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/ArrayList <init> ()V 4097 1 20766 0 64
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 2081 1 150607 0 0
+ciMethod java/util/ArrayList ensureExplicitCapacity (I)V 2113 1 150607 0 0
+ciMethod java/util/ArrayList grow (I)V 273 1 4536 0 0
+ciMethod java/util/ArrayList hugeCapacity (I)I 0 0 1 0 -1
+ciMethod java/util/ArrayList size ()I 1025 1 128 0 0
+ciMethod java/util/ArrayList elementData (I)Ljava/lang/Object; 2441 1 25573 0 0
+ciMethod java/util/ArrayList get (I)Ljava/lang/Object; 2321 1 20183 0 128
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 3473 1 150603 0 768
+ciMethod java/util/ArrayList rangeCheck (I)V 2153 1 25573 0 0
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 2257 1 19486 0 0
+ciMethod java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2345 1 6655 0 1952
+ciMethod java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 2289 361 6886 0 2048
+ciMethod java/util/HashMap resize ()[Ljava/util/HashMap$Node; 121 5377 364 0 -1
+ciMethod java/util/HashMap treeifyBin ([Ljava/util/HashMap$Node;I)V 0 0 1 0 -1
+ciMethod java/util/HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$N
